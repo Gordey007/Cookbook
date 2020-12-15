@@ -1,0 +1,739 @@
+<resources>
+    <string name="app_name">Cookbook</string>
+    <string name="delete_record">Удалить запись</string>
+    <string name="add_record">Добавить запись</string>
+
+    <string-array name="food_intake">
+        <item>Завтрак</item>
+        <item>Второй завтрак</item>
+        <item>Ланч</item>
+        <item>Обед</item>
+        <item>Полдник</item>
+        <item>Ужин</item>
+        <item>Десерт</item>
+    </string-array>
+
+    <string-array name="kitchen">
+        <item>Австрийская кухня</item>
+        <item>Азербайджанская кухня</item>
+        <item>Алжирская кухня</item>
+        <item>Афганская кухня</item>
+        <item>Американская кухня</item>
+        <item>Английская кухня</item>
+        <item>Аргентинская кухня</item>
+        <item>Армянская кухня</item>
+        <item>Белорусская кухня</item>
+        <item>Бельгийская кухня</item>
+        <item>Болгарская кухня</item>
+        <item>Бразильская кухня</item>
+        <item>Венгерская кухня</item>
+        <item>Вьетнамская кухня</item>
+        <item>Греческая кухня</item>
+        <item>Грузинская кухня</item>
+        <item>Дагестанская кухня</item>
+        <item>Датская кухня</item>
+        <item>Еврейская кухня</item>
+        <item>Египетская кухня</item>
+        <item>Индийская кухня</item>
+        <item>Иранская кухня</item>
+        <item>Ирландская кухня</item>
+        <item>Испанская кухня</item>
+        <item>Итальянская кухня</item>
+        <item>Казахская кухня</item>
+        <item>Караимская кухня</item>
+        <item>Кипрская кухня</item>
+        <item>Китайская кухня</item>
+        <item>Корейская кухня</item>
+        <item>Киргизская кухня</item>
+        <item>Кубинская кухня</item>
+        <item>Кухня Индонезии</item>
+        <item>Кухня Луизианы</item>
+        <item>Кухня Малайзии</item>
+        <item>Кухня Туниса</item>
+        <item>Кухня Ямайки</item>
+        <item>Кхмерская кухня</item>
+        <item>Латвийская кухня</item>
+        <item>Ливанская кухня</item>
+        <item>Литовская кухня</item>
+        <item>Мальтийская кухня</item>
+        <item>Марокканская кухня</item>
+        <item>Мексиканская кухня</item>
+        <item>Молдавская кухня</item>
+        <item>Немецкая кухня</item>
+        <item>Норвежская кухня</item>
+        <item>Непальская кухня</item>
+        <item>Перуанская кухня</item>
+        <item>Польская кухня</item>
+        <item>Португальская кухня</item>
+        <item>Румынская кухня</item>
+        <item>Русская кухня</item>
+        <item>Сашими (сасими)</item>
+        <item>Сенегальская кухня</item>
+        <item>Сербская кухня</item>
+        <item>Сирийская кухня</item>
+        <item>Словацкая кухня</item>
+        <item>Таджикская кухня</item>
+        <item>Татарская кухня</item>
+        <item>Тайская кухня</item>
+        <item>Турецкая кухня</item>
+        <item>Финская кухня</item>
+        <item>Удмуртская кухня</item>
+        <item>Узбекская кухня</item>
+        <item>Украинская кухня</item>
+        <item>Фондю</item>
+        <item>Французская кухня</item>
+        <item>Хорватская кухня</item>
+        <item>Чешская кухня</item>
+        <item>Чувашская кухня</item>
+        <item>Шведская кухня</item>
+        <item>Швейцарская кухня</item>
+        <item>Шотландская кухня</item>
+        <item>Эстонская кухня</item>
+        <item>Японская кухня</item>
+    </string-array>
+
+    <string-array name="dishes">
+        <item>Мясные котлеты</item>
+        <item>Рулет «Мимоза» в лаваше</item>
+        <item>Салат из квашеной капусты</item>
+        <item>Картофель, запеченный с сыром</item>
+        <item>Салат из свежей капусты с курицей</item>
+        <item>Котлеты мясные</item>
+        <item>Русское жаркое с говядиной</item>
+        <item>Пряный картофель по‑деревенски в духовке</item>
+        <item>Драники из картофеля</item>
+        <item>Жареная картошка</item>
+        <item>Поджарка из свинины</item>
+        <item>Зразы манные с мясом</item>
+        <item>Грибной рулет из лаваша</item>
+        <item>Поджарка из свинины</item>
+        <item>Драники из картофеля</item>
+        <item>Блины на кефире</item>
+        <item>Шарлотка традиционная</item>
+        <item>Солянка мясная</item>
+        <item>Завтрак для ленивых</item>
+        <item>Борщ с курицей</item>
+        <item>Оливье по‑советски</item>
+        <item>Быстрый лимонад</item>
+        <item>Куриные котлеты</item>
+        <item>Воздушные тонкие блины на молоке</item>
+        <item>Дрожжевые пасхальные куличи</item>
+        <item>Манник на кефире</item>
+        <item>Сырники с бруснично-розмариновым вареньем</item>
+        <item>Сырники с бруснично-розмариновым вареньем</item>
+        <item>Кекс «Столичный»</item>
+        <item>Сладкая манная каша</item>
+        <item>Бабушкины сырники</item>
+        <item>Шарлотка яблочная со сливочным маслом</item>
+        <item>Окрошка кефирная</item>
+        <item>Легкий коктейль</item>
+        <item>Сырные блины</item>
+        <item>Коктейль «Пьяный банан»</item>
+        <item>Курица с картофелем, запеченная в кефире с чесноком и травами</item>
+        <item>Бананы в шоколаде</item>
+        <item>Сочники (ГОСТ)</item>
+        <item>Ленивые голубцы с рисом</item>
+
+    </string-array>
+
+    <string-array name="products">
+        <item>Абсент</item>
+        <item>Ангостура</item>
+        <item>Арак</item>
+        <item>Арманьяк</item>
+        <item>Бальзам</item>
+        <item>Бренди</item>
+        <item>Бурбон</item>
+        <item>Вермут</item>
+        <item>Вино</item>
+        <item>Виски</item>
+        <item>Граппа</item>
+        <item>Имбирное зеленое вино</item>
+        <item>Кава</item>
+        <item>Кагор</item>
+        <item>Кальвадос</item>
+        <item>Кашаса</item>
+        <item>Коньяк</item>
+        <item>Ламбруско</item>
+        <item>Мадера</item>
+        <item>Марсала</item>
+        <item>Мартини</item>
+        <item>Мускат</item>
+        <item>Оранж биттер</item>
+        <item>Пастис</item>
+        <item>Перно</item>
+        <item>Портвейн</item>
+        <item>Ром</item>
+        <item>Рутбир</item>
+        <item>Саке</item>
+        <item>Самбука</item>
+        <item>Сидр</item>
+        <item>Херес</item>
+        <item>Бобы</item>
+        <item>Булгур</item>
+        <item>Геркулес</item>
+        <item>Гречневая крупа</item>
+        <item>Гречневая мука</item>
+        <item>Дикий рис</item>
+        <item>Рис</item>
+        <item>Камут</item>
+        <item>Киноа</item>
+        <item>Кукурузная мука</item>
+        <item>Кускус</item>
+        <item>Льняная мука</item>
+        <item>Манная крупа</item>
+        <item>Мука из киноа</item>
+        <item>Натура­льный кофе</item>
+        <item>Нут</item>
+        <item>Овсяная крупа</item>
+        <item>Отруби</item>
+        <item>Перловая крупа</item>
+        <item>Полба</item>
+        <item>Пшеничная крупа</item>
+        <item>Пшеничная мука</item>
+        <item>Пшено</item>
+        <item>Ржаная крупа</item>
+        <item>Рисовая мука</item>
+        <item>Саго</item>
+        <item>Фасоль</item>
+        <item>Чечевица</item>
+        <item>Шоколад</item>
+        <item>Ячмень</item>
+        <item>Анчоусы</item>
+        <item>Барабулька</item>
+        <item>Баррамунди</item>
+        <item>Белая акула</item>
+        <item>Белуга</item>
+        <item>Голец</item>
+        <item>Горбуша</item>
+        <item>Гребешки</item>
+        <item>Дорадо</item>
+        <item>Икра</item>
+        <item>Кальмары</item>
+        <item>Камбала</item>
+        <item>Каракатица</item>
+        <item>Карась</item>
+        <item>Карась</item>
+        <item>Кефаль</item>
+        <item>Килька</item>
+        <item>Крабы</item>
+        <item>Креветки</item>
+        <item>Лангуст</item>
+        <item>Лангустины</item>
+        <item>Лобстер</item>
+        <item>Лосось</item>
+        <item>Макрель</item>
+        <item>Мидии</item>
+        <item>Миноги</item>
+        <item>Минтай</item>
+        <item>Мойва</item>
+        <item>Моллюски</item>
+        <item>Морской лещ</item>
+        <item>Морской язык</item>
+        <item>Окунь</item>
+        <item>Осетрина</item>
+        <item>Осьминог</item>
+        <item>Палтус</item>
+        <item>Раки</item>
+        <item>Ракушки-ве­нерки</item>
+        <item>Сазан</item>
+        <item>Сайда</item>
+        <item>Сардины</item>
+        <item>Севрюга</item>
+        <item>Сельдь</item>
+        <item>Семга</item>
+        <item>Сибас</item>
+        <item>Скумбрия</item>
+        <item>Сом</item>
+        <item>Сушеные снетки</item>
+        <item>Треска</item>
+        <item>Тунец</item>
+        <item>Угорь</item>
+        <item>Филе ската</item>
+        <item>Форель</item>
+        <item>Щука</item>
+        <item>Нутелла</item>
+        <item>Агар-агар</item>
+        <item>Аджика</item>
+        <item>Арахисовое масло</item>
+        <item>Аргановое масло</item>
+        <item>Аррорут</item>
+        <item>Бальзами­ческий уксус</item>
+        <item>Варенье</item>
+        <item>Водоросли</item>
+        <item>Вустерши­рский соус</item>
+        <item>Горчица</item>
+        <item>Горчичное масло</item>
+        <item>Детская смесь «Малютка»</item>
+        <item>Джем</item>
+        <item>Желатин</item>
+        <item>Заменитель яиц</item>
+        <item>Изюм</item>
+        <item>Имбирное масло</item>
+        <item>Кетчуп</item>
+        <item>Кислота лимонная</item>
+        <item>Лимонная кислота</item>
+        <item>Кленовый сироп</item>
+        <item>Клетчатка</item>
+        <item>Кокосовое масло</item>
+        <item>Кокосовое молоко</item>
+        <item>Кондитерские украшения</item>
+        <item>Конопляное масло</item>
+        <item>Конфеты</item>
+        <item>Конфитюр</item>
+        <item>Коптильная жидкость</item>
+        <item>Коричневый соус HP</item>
+        <item>Крахмал</item>
+        <item>Кукурузное масло</item>
+        <item>Кунжутное масло</item>
+        <item>Лапша</item>
+        <item>Майонез</item>
+        <item>Марципан</item>
+        <item>Масло авокадо</item>
+        <item>Масло для фритюра</item>
+        <item>Масло из виноградных косточек</item>
+        <item>Масло канолы</item>
+        <item>Масло тмина</item>
+        <item>Мед</item>
+        <item>Миндальное масло</item>
+        <item>Мюсли</item>
+        <item>Напиток «Гуарана»</item>
+        <item>Напиток Gatorade голубой</item>
+        <item>Ньокки</item>
+        <item>Оливковое масло</item>
+        <item>Ореховое масло</item>
+        <item>Ореховое масло</item>
+        <item>Панирово­чные сухари</item>
+        <item>Пассата</item>
+        <item>Паста</item>
+        <item>Паста анко</item>
+        <item>Пектин</item>
+        <item>Пищевой краситель</item>
+        <item>Повидло</item>
+        <item>Помидоры в собстве­нном соку</item>
+        <item>Растите­льное масло</item>
+        <item>Растите­льные сливки</item>
+        <item>Рафиниро­ванное масло</item>
+        <item>Рисовый уксус</item>
+        <item>Розовая вода</item>
+        <item>Рыбный соус</item>
+        <item>Сахар</item>
+        <item>Свежие дрожжи</item>
+        <item>Дрожжи</item>
+        <item>Сироп из топинамбура</item>
+        <item>Сладкий соус чили</item>
+        <item>Соевое масло</item>
+        <item>Соевое молоко</item>
+        <item>Соевый соус</item>
+        <item>Соус наршараб</item>
+        <item>Соус табаско</item>
+        <item>Соус тако</item>
+        <item>Соус терияки</item>
+        <item>Соус чили с чесноком</item>
+        <item>Тапиока</item>
+        <item>Темпура микс</item>
+        <item>Томатная паста</item>
+        <item>Тофу</item>
+        <item>Тыквенное масло</item>
+        <item>Уксус</item>
+        <item>Устричный соус</item>
+        <item>Фанта</item>
+        <item>Фруктовый мармелад</item>
+        <item>Фруктоза</item>
+        <item>Хлопковое масло</item>
+        <item>Цукаты</item>
+        <item>Черная лакрица</item>
+        <item>Шоколадная стружка</item>
+        <item>Адинамодо</item>
+        <item>Ажгон</item>
+        <item>Амчур</item>
+        <item>Анис</item>
+        <item>Бадьян</item>
+        <item>Белый перец горошком</item>
+        <item>Бульонный кубик</item>
+        <item>Ваниль</item>
+        <item>Васаби</item>
+        <item>Гвоздика</item>
+        <item>Длинный черный перец</item>
+        <item>Заатар</item>
+        <item>Зеленый перец горошком</item>
+        <item>Кардамон</item>
+        <item>Карри</item>
+        <item>Китайские пряности «Пять специй»</item>
+        <item>Кора дуба</item>
+        <item>Корица</item>
+        <item>Кумин</item>
+        <item>Зира</item>
+        <item>Кунжутные семечки</item>
+        <item>Куркума</item>
+        <item>Мак</item>
+        <item>Масала</item>
+        <item>Паприка</item>
+        <item>Пассифлора</item>
+        <item>Пекарский порошок</item>
+        <item>Порошок мескито­вого дерева</item>
+        <item>Приправа Nomu Moroccan</item>
+        <item>Пряности</item>
+        <item>Розовый перец</item>
+        <item>Салатная заправка</item>
+        <item>Семена горчицы</item>
+        <item>Семена кориандра</item>
+        <item>Семечки подсолнуха</item>
+        <item>Смесь «Четыре специи»</item>
+        <item>Смесь италья­нских трав</item>
+        <item>Смесь перцев</item>
+        <item>Соль</item>
+        <item>Соус хойсин</item>
+        <item>Сушеный перец чили</item>
+        <item>Сычуаньский перец</item>
+        <item>Тандури</item>
+        <item>Черный душистый перец</item>
+        <item>Черный перец горошком</item>
+        <item>Шафран</item>
+        <item>Активия натуральная</item>
+        <item>Йогурт</item>
+        <item>Кварк</item>
+        <item>Кефир</item>
+        <item>Маргарин</item>
+        <item>Молоко</item>
+        <item>Мороженое</item>
+        <item>Обезжире­нный творог</item>
+        <item>Пахта</item>
+        <item>Перепе­линое яйцо</item>
+        <item>Просто­кваша</item>
+        <item>Ряженка</item>
+        <item>Сгущенное молоко</item>
+        <item>Сливки</item>
+        <item>Сливочное масло</item>
+        <item>Сметана</item>
+        <item>Творог</item>
+        <item>Утиное яйцо</item>
+        <item>Яйцо куриное</item>
+        <item>Адыгейский сыр</item>
+        <item>Голландский сыр</item>
+        <item>Голубой сыр</item>
+        <item>Зеленый сыр</item>
+        <item>Имеретинский сыр</item>
+        <item>Козий сыр</item>
+        <item>Овечий сыр</item>
+        <item>Пошехо­нский сыр</item>
+        <item>Российский сыр</item>
+        <item>Сливочный сыр</item>
+        <item>Сыр асьяго</item>
+        <item>Сыр базирон песто</item>
+        <item>Сыр банон</item>
+        <item>Сыр блю уэнслидейл</item>
+        <item>Сыр бри</item>
+        <item>Сыр брынза</item>
+        <item>Сыр буррата</item>
+        <item>Сыр бурсен</item>
+        <item>Сыр гауда</item>
+        <item>Сыр горгонзола</item>
+        <item>Сыр грана-па­дано</item>
+        <item>Сыр грюйер</item>
+        <item>Сыр дабл глостер</item>
+        <item>Сыр дорблю</item>
+        <item>Сыр камамбер</item>
+        <item>Сыр конте</item>
+        <item>Сыр маскарпоне</item>
+        <item>Сыр моцарелла</item>
+        <item>Сыр надуги</item>
+        <item>Сыр пармезан</item>
+        <item>Сыр пекорино романо</item>
+        <item>Сыр проволоне</item>
+        <item>Сыр рокфор</item>
+        <item>Сыр скаморца</item>
+        <item>Сыр сулугуни</item>
+        <item>Сыр фета</item>
+        <item>Сыр фетакса</item>
+        <item>Сыр филаде­льфия</item>
+        <item>Сыр халуми</item>
+        <item>Сыр чеддер</item>
+        <item>Сыр эдам</item>
+        <item>Сырная косичка</item>
+        <item>Швейца­рский сыр</item>
+        <item>Шоколадный сыр</item>
+        <item>Артишоки</item>
+        <item>Баклажаны</item>
+        <item>Бамия</item>
+        <item>Батат</item>
+        <item>Белокочанная капуста</item>
+        <item>Брюква</item>
+        <item>Брюссельская капуста</item>
+        <item>Галангал</item>
+        <item>Горох</item>
+        <item>Джикама</item>
+        <item>Зеленый горошек</item>
+        <item>Имбирь</item>
+        <item>Кабачки</item>
+        <item>Кайенский перец</item>
+        <item>Каперсы</item>
+        <item>Капуста</item>
+        <item>Капуста брокколи</item>
+        <item>Капуста романеско</item>
+        <item>Картофель</item>
+        <item>Китайская капуста</item>
+        <item>Кольраби</item>
+        <item>Консервиро­ванный перец пименто</item>
+        <item>Корень куркумы</item>
+        <item>Коренья</item>
+        <item>Красноко­чанная капуста</item>
+        <item>Красный лук</item>
+        <item>Крачай</item>
+        <item>Лук репчатый</item>
+        <item>Лук-порей</item>
+        <item>Лук-шалот</item>
+        <item>Маринованные огурцы</item>
+        <item>Маслины</item>
+        <item>Молодые плоды люфы</item>
+        <item>Морковь</item>
+        <item>Овощи</item>
+        <item>Огурцы</item>
+        <item>Огурцы</item>
+        <item>Оливки</item>
+        <item>Очищенный консервиро­ванный перец пикийо</item>
+        <item>Пальчиковые помидоры</item>
+        <item>Пастернак</item>
+        <item>Патиссоны</item>
+        <item>Перец чили</item>
+        <item>Помидоры</item>
+        <item>Помидоры черри</item>
+        <item>Ревень</item>
+        <item>Редис</item>
+        <item>Редька</item>
+        <item>Репа</item>
+        <item>Савойская капуста</item>
+        <item>Свежая кукуруза</item>
+        <item>Свежий перец</item>
+        <item>Свекла</item>
+        <item>Сельдерей</item>
+        <item>Сладкий перец</item>
+        <item>Сладкий перец</item>
+        <item>Смесь проростков</item>
+        <item>Спаржа</item>
+        <item>Стручковая фасоль</item>
+        <item>Топинамбур</item>
+        <item>Тыква</item>
+        <item>Фенхель</item>
+        <item>Хрен</item>
+        <item>Цветная капуста</item>
+        <item>Цукини</item>
+        <item>Чеснок</item>
+        <item>Ямс</item>
+        <item>Абрикосовое пюре</item>
+        <item>Абрикосы</item>
+        <item>Авокадо</item>
+        <item>Айва</item>
+        <item>Ананас</item>
+        <item>Апельсины</item>
+        <item>Арбуз</item>
+        <item>Банановое пюре</item>
+        <item>Бананы</item>
+        <item>Барбарис</item>
+        <item>Брусника</item>
+        <item>Виноград</item>
+        <item>Вишня</item>
+        <item>Голубика</item>
+        <item>Гранаты</item>
+        <item>Грейпфруты</item>
+        <item>Груши</item>
+        <item>Дыня</item>
+        <item>Ежевика</item>
+        <item>Земляника</item>
+        <item>Инжир</item>
+        <item>Карамбола</item>
+        <item>Киви</item>
+        <item>Кизил</item>
+        <item>Клубника</item>
+        <item>Клюква</item>
+        <item>Крыжовник</item>
+        <item>Кумкват</item>
+        <item>Лайм</item>
+        <item>Лимон</item>
+        <item>Личи</item>
+        <item>Малина</item>
+        <item>Манго</item>
+        <item>Мандарины</item>
+        <item>Маракуйя</item>
+        <item>Морошка</item>
+        <item>Мушмула</item>
+        <item>Нектарины</item>
+        <item>Облепиха</item>
+        <item>Папайя</item>
+        <item>Персики</item>
+        <item>Помело</item>
+        <item>Рябина</item>
+        <item>Свежие ягоды</item>
+        <item>Сливы</item>
+        <item>Смородина</item>
+        <item>Танжело</item>
+        <item>Фейхоа</item>
+        <item>Финики</item>
+        <item>Хурма</item>
+        <item>Черника</item>
+        <item>Чернослив</item>
+        <item>Яблоко</item>
+        <item>Белые грибы</item>
+        <item>Вешенки</item>
+        <item>Грибы</item>
+        <item>Грибы шиитаке</item>
+        <item>Грибы эноки</item>
+        <item>Лисички</item>
+        <item>Маслята</item>
+        <item>Опята</item>
+        <item>Подберезовики</item>
+        <item>Рыжики</item>
+        <item>Сморчки</item>
+        <item>Сухие китайские грибы</item>
+        <item>Трюфели</item>
+        <item>Шампиньоны</item>
+        <item>Базилик</item>
+        <item>Брокколи рааб</item>
+        <item>Букет гарни</item>
+        <item>Вербена лимонная</item>
+        <item>Водяной кресс</item>
+        <item>Джусай</item>
+        <item>Зеленый лук</item>
+        <item>Зеленый салат</item>
+        <item>Зелень</item>
+        <item>Каркаде</item>
+        <item>Кервель</item>
+        <item>Крапива</item>
+        <item>Лавровый лист</item>
+        <item>Лепестки роз</item>
+        <item>Лимонная трава</item>
+        <item>Листья банана</item>
+        <item>Листья боярышника</item>
+        <item>Листья винограда</item>
+        <item>Листья карри</item>
+        <item>Листья малины</item>
+        <item>Листья одуванчика</item>
+        <item>Листья пандан</item>
+        <item>Листья шисо</item>
+        <item>Лук резанец</item>
+        <item>Майоран</item>
+        <item>Мангольд</item>
+        <item>Мелисса</item>
+        <item>Мизуна</item>
+        <item>Мята</item>
+        <item>Орегано</item>
+        <item>Петрушка</item>
+        <item>Портулак</item>
+        <item>Розмарин</item>
+        <item>Руккола</item>
+        <item>Салат пак-чой</item>
+        <item>Тимьян</item>
+        <item>Укроп</item>
+        <item>Цветы лаванды</item>
+        <item>Цикорий</item>
+        <item>Черемша</item>
+        <item>Шалфей</item>
+        <item>Шпинат</item>
+        <item>Щавель</item>
+        <item>Эстрагон</item>
+        <item>Бекон</item>
+        <item>Ветчина</item>
+        <item>Говядина</item>
+        <item>Заяц</item>
+        <item>Колбаса</item>
+        <item>Колбаски</item>
+        <item>Кролик</item>
+        <item>Мясо</item>
+        <item>Сардельки</item>
+        <item>Свинина</item>
+        <item>Сервелат</item>
+        <item>Сосиски</item>
+        <item>Телятина</item>
+        <item>Фарш</item>
+        <item>Гусь</item>
+        <item>Индейка</item>
+        <item>Курица</item>
+        <item>Перепелка</item>
+        <item>Утка</item>
+        <item>Фуа-гра</item>
+        <item>Цесарка</item>
+        <item>Цыпленок</item>
+        <item>Арахис</item>
+        <item>Бразильские орехи</item>
+        <item>Грецкие орехи</item>
+        <item>Каштаны</item>
+        <item>Кедровые орехи</item>
+        <item>Кешью</item>
+        <item>Кокос</item>
+        <item>Миндаль</item>
+        <item>Мускатный орех</item>
+        <item>Орехи</item>
+        <item>Орехи макадамия</item>
+        <item>Орехи пинии</item>
+        <item>Пекан</item>
+        <item>Фисташки</item>
+        <item>Фундук</item>
+        <item>Амаретти</item>
+        <item>Багель</item>
+        <item>Батон</item>
+        <item>Безе</item>
+        <item>Бисквит</item>
+        <item>Блины</item>
+        <item>Бублик</item>
+        <item>Булочка</item>
+        <item>Бульон</item>
+        <item>Вафли</item>
+        <item>Вода</item>
+        <item>Галеты</item>
+        <item>Гренки</item>
+        <item>Грильяж</item>
+        <item>Гуакамоле</item>
+        <item>Дрожжевое тесто</item>
+        <item>Желе</item>
+        <item>Заварной крем</item>
+        <item>Зефир</item>
+        <item>Ирис «Карамбар»</item>
+        <item>Итальянская лепешка</item>
+        <item>Квас хлебный</item>
+        <item>Кекс английский</item>
+        <item>Кока-кола</item>
+        <item>Крекеры</item>
+        <item>Крутоны из муки грубого помола</item>
+        <item>Куриный бульон</item>
+        <item>Лед</item>
+        <item>Лепешки «Тако»</item>
+        <item>Лепешки пиде</item>
+        <item>Лимонад</item>
+        <item>Лимонный крем</item>
+        <item>Маленькие ириски</item>
+        <item>Маца</item>
+        <item>Миндальные макаруны</item>
+        <item>Мисо суп</item>
+        <item>Мятная карамель</item>
+        <item>Панеттоне</item>
+        <item>Паштет</item>
+        <item>Песочное тесто</item>
+        <item>Песто</item>
+        <item>Печенье</item>
+        <item>Пико де галло</item>
+        <item>Пита</item>
+        <item>Пряники</item>
+        <item>Пумперни­кель</item>
+        <item>Разноцветная карамель</item>
+        <item>Сацебели</item>
+        <item>Сливочный соус</item>
+        <item>Слоеное тесто</item>
+        <item>Соевый йогурт</item>
+        <item>Соус «1000 островов»</item>
+        <item>Соус айоли</item>
+        <item>Соус сальса</item>
+        <item>Табуле</item>
+        <item>Тапенад</item>
+        <item>Тарталетки</item>
+        <item>Тахини</item>
+        <item>Тесто для пельменей</item>
+        <item>Тесто для пиццы</item>
+        <item>Тортильи</item>
+        <item>Францу­зский багет</item>
+        <item>Хлебные палочки</item>
+        <item>Шоколадный женуаз</item>
+        <item>Шоколадный соус</item>
+    </string-array>
+
+
+</resources>
